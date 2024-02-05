@@ -1,0 +1,126 @@
+div.product-list {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    }
+
+div.panier-display {
+align-items: center;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+gap: 20px;
+margin: 20px 0;
+}
+
+div.panier-view {
+    border-bottom: #009900;
+    align-items:stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content:space-evenly;
+    margin: 20px 0;
+
+}
+
+div.panier-view img {
+    max-width: 150px;
+}
+div.panier-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+div.product-item {
+        border: 1px solid #00cc66;
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+div.display-nom {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    text-shadow: grey;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 12;
+}
+
+div.display-image img {
+    max-width: fit-content;
+}
+div.product-image img {
+        max-width: 150px;
+    }
+
+div.product-name {
+        margin: 15px 0;
+    }
+
+
+div.product-display {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.standard-button {
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #00cc66;
+        border: 1px solid #009900;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        padding: 8px 25px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+main {
+    text-align: center;
+}
+
+header, nav, footer {
+
+    text-align: center;
+    background-color: #00cc66;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.menu {
+margin-bottom: 15px;
+text-decoration: none;
+    color: lightgreen;
+}
+
+
+
+.menuA:link .menuA:visited {
+    text-decoration: none;
+    color: lightgreen;
+}
+.standard-button:hover {
+            background-color: #009900;
+    }            
+
+.container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
